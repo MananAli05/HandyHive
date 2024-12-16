@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+        <ImageView
+            android:id="@+id/icon_about_us"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/loooogo"/>
+        <TextView
+            android:id="@+id/text_about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to HandyHive! We are a platform providing home services at your doorstep."
+            android:textSize="25dp"
+            android:textColor="@color/DarkGray"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/icon_about_us" />
+
+        <Button
+            android:id="@+id/get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baack"
+            android:text="Logout"
+            android:textSize="45dp"
+            android:layout_marginTop="47dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_about_us" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

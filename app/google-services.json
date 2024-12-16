@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667239147215",
+    "project_id": "handy-hive2",
+    "storage_bucket": "handy-hive2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667239147215:android:e69770dfd87d01a78239ba",
+        "android_client_info": {
+          "package_name": "com.example.handyhive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNJCe_T6gW_9caogAGbDMD9nuWKJ4T1KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Electric">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/electricinan" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:textColor="@color/DarkGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr. Steve"
+            android:textSize="34dp"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Power up your home with the expertise of Mr. Steve, a trusted electrician known for his precision and reliability. From quick repairs to complex installations, Steve ensures safety and efficiency at every step. Experience seamless solutions tailored to your needs. Choose Mr. Steve and electrify your world with confidence"
+            android:textSize="20dp"
+            android:textColor="@color/DarkGray"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/contactTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For Contact                         +92390234564"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="50dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
